@@ -1,11 +1,18 @@
-name = "zhang zhongpeng"
-print(name.title())
-print(name.upper())
-print(name.lower())
-
-
-first_name = "\tzhang"
-last_name = "zhongpeng\n"
-full_name = first_name + " " + last_name
-message = "Hello," + full_name.title() + "!"
+name = "zzp"
+message = "Hi " + name + ", I love u"
 print(message)
+
+name = "zhang zhongpeng"
+print(name.lower())
+print(name.upper())
+print(name.title())
+
+message = name.title() + ' once said,"balababababababab."'
+print(message)
+
+name = "\tzhang\nzhongpeng\t"
+print(name) 
+name = name.lstrip()
+name = name.rstrip()
+name = name.strip()
+print(name)
