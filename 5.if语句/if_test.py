@@ -77,10 +77,10 @@ for x in new_user:
             break
         else:
             bFind = False
-    if bFind == False:
+    if bFind is False:
         print(x + " 可以使用")
 
-listOp = list(range(1,10))
+listOp = list(range(1, 10))
 print(listOp)
 for x in listOp:
     if x == 1:
