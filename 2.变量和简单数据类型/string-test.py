@@ -11,7 +11,7 @@ message = name.title() + ' once said,"balababababababab."'
 print(message)
 
 name = "\tzhang\nzhongpeng\t"
-print(name) 
+print(name)
 name = name.lstrip()
 name = name.rstrip()
 name = name.strip()
