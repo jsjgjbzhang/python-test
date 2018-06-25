@@ -17,15 +17,28 @@
     <SUITE FILE_PATH="coverage/python_test$function_test.coverage" NAME="function_test Coverage Results" MODIFIED="1529756209175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8.函数" />
     <SUITE FILE_PATH="coverage/python_test$file_test.coverage" NAME="file_test Coverage Results" MODIFIED="1529829142554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10.文件和异常" />
     <SUITE FILE_PATH="coverage/python_test$input_while_test.coverage" NAME="input_while_test Coverage Results" MODIFIED="1529754484922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7.用户输入和while循环" />
+    <SUITE FILE_PATH="coverage/python_test$game_test.coverage" NAME="game_test Coverage Results" MODIFIED="1529845873437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12.武装飞船" />
     <SUITE FILE_PATH="coverage/python_test$if_test.coverage" NAME="if_test Coverage Results" MODIFIED="1529637606381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5.if语句" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="remember_me.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/10.文件和异常/remember_me.py">
+      <file leaf-file-name="game_test.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/12.武装飞船/game_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="240">
+              <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gamesetting.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/12.武装飞船/gamesetting.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="17" selection-start-column="6" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -49,6 +62,9 @@
         <option value="$PROJECT_DIR$/10.文件和异常/cats.txt" />
         <option value="$PROJECT_DIR$/10.文件和异常/file_test.py" />
         <option value="$PROJECT_DIR$/10.文件和异常/remember_me.py" />
+        <option value="$PROJECT_DIR$/11.测试代码/city_function.py" />
+        <option value="$PROJECT_DIR$/12.武装飞船/game_setting.py" />
+        <option value="$PROJECT_DIR$/12.武装飞船/game_test.py" />
       </list>
     </option>
   </component>
@@ -106,12 +122,12 @@
             <path>
               <item name="python-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="python-test" type="462c0819:PsiDirectoryNode" />
-              <item name="9.类" type="462c0819:PsiDirectoryNode" />
+              <item name="11.测试代码" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="python-test" type="462c0819:PsiDirectoryNode" />
-              <item name="10.文件和异常" type="462c0819:PsiDirectoryNode" />
+              <item name="12.武装飞船" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -138,7 +154,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.remember_me">
+  <component name="RunManager" selected="Python.game_test">
     <configuration name="class_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -196,7 +212,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="input_while_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="game_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -204,12 +220,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/7.用户输入和while循环" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/12.武装飞船" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7.用户输入和while循环/input_while_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12.武装飞船/game_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -235,19 +251,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.input_while_test" />
       <item itemvalue="Python.function_test" />
       <item itemvalue="Python.class_test" />
       <item itemvalue="Python.file_test" />
       <item itemvalue="Python.remember_me" />
+      <item itemvalue="Python.game_test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.game_test" />
         <item itemvalue="Python.remember_me" />
         <item itemvalue="Python.file_test" />
         <item itemvalue="Python.class_test" />
         <item itemvalue="Python.function_test" />
-        <item itemvalue="Python.input_while_test" />
       </list>
     </recent_temporary>
   </component>
@@ -273,9 +289,9 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32941177" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49920633" visible="true" weight="0.30866143" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49920633" weight="0.30866143" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16484375" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16484375" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32913387" />
@@ -430,7 +446,41 @@
     <entry file="file://$PROJECT_DIR$/10.文件和异常/remember_me.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11.测试代码/city_function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="59" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12.武装飞船/game_setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12.武装飞船/gamesetting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12.武装飞船/game_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
