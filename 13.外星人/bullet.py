@@ -18,7 +18,7 @@ class Bullet(Sprite):
 
         self.y = float(self.rect.y)
 
-        self.color = tuple([randint(0, 255) for x in range(0, 3)])
+        self.color = tuple([randint(0, 255) for x in range(3)])
         # self.color = setting.bullet_color
         self.speed_factor = setting.bullet_speed_factor
 

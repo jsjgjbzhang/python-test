@@ -1,7 +1,7 @@
 import pygame
 
 
-class Ship():
+class Ship:
     """docstring for Ship"""
 
     def __init__(self, scene, setting):
@@ -31,13 +31,13 @@ class Ship():
         if self.moving_down:
             self.centery += self.setting.ship_speed_factor
 
-        if(self.rect.centerx > self.scene_rect.right):
+        if self.rect.centerx > self.scene_rect.right:
             self.centerx = self.scene_rect.left
-        if(self.rect.centerx < self.scene_rect.left):
+        if self.rect.centerx < self.scene_rect.left:
             self.centerx = self.scene_rect.right
-        if(self.rect.centery > self.scene_rect.bottom):
+        if self.rect.centery > self.scene_rect.bottom:
             self.centery = self.scene_rect.top
-        if(self.rect.centery < self.scene_rect.top):
+        if self.rect.centery < self.scene_rect.top:
             self.centery = self.scene_rect.bottom
 
         self.rect.centerx = self.centerx
